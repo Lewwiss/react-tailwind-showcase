@@ -2,10 +2,6 @@
 
 This is a very simple example website to showcase my CSS and design skills.
 
-## Setup
-
-Details can be generated in the shopify admin dashboard, under private apps
-
 ## Installed Packages
 
 * [React](https://reactjs.org/)
