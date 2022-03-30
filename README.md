@@ -1,5 +1,7 @@
 # React / Tailwind Showcase
 
+Hosted version: https://react-tailwind-showcase.vercel.app/
+
 This is a very simple example website to showcase my CSS and design skills.
 
 ## Installed Packages
