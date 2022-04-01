@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Navigation from '../components/Navigation';
 import Landing from '../components/Landing';
-import Setup from '../components/Setup';
 import Features from '../components/Features';
-import Integrations from '../components/Integrations';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -15,9 +13,7 @@ const Home = () => {
       </Head>
       <Navigation />
       <Landing />
-      <Setup />
       <Features />
-      <Integrations />
       <Footer />
     </div>
   );

@@ -4,10 +4,10 @@ const Landing = () => {
     return (
         <div className="bg-slate-900">
             <div className="mx-auto container grid grid-cols-2">
-                <motion.div className="min-h-screen flex flex-col items-start justify-center p-16" initial={{x: -100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.1, type:"spring"}}>
-                    <p className="text-xs font-bold uppercase tracking-widest text-slate-400 pb-10">Risk-free 30 day trial</p>
-                    <h1 className="font-bold text-7xl text-white"style={{lineHeight: "4.8rem"}}>The best way<br />to organize<br />your work.</h1>
-                    <p className="text-sm text-slate-400 leading-9 py-8">Get started today and organize your tasks, lists and reminders<br />all in one app.</p>
+                <motion.div className="pb-20 pt-40 xl:pt-10 xl:pb-10 px-10 xl:px-16 col-span-2 xl:col-span-1 min-h-screen flex flex-col items-center xl:items-start justify-center text-center xl:text-left" initial={{x: -100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.1, type:"spring"}}>
+                    <p className="text-xs font-bold uppercase tracking-widest text-orange-400 pb-10">Risk-free 30 day trial</p>
+                    <h1 className="font-bold text-7xl text-white"style={{lineHeight: "4.8rem"}}>The best way<br className="hidden sm:block"/> to organize<br className="hidden sm:block"/> your work.</h1>
+                    <p className="text-sm text-slate-400 leading-9 py-8">Get started today and organize your tasks, lists and reminders<br className="hidden sm:block"/> all in one app.</p>
                     <div className="flex flex-row items-center justify-center space-x-5">
                         <button href="#" className="rounded-xl border-orange-400 border-2 bg-orange-400 py-4 px-5 text-sm font-bold text-white shadow-sm duration-300 hover:translate-y-1">
                             Try it for free
@@ -20,7 +20,7 @@ const Landing = () => {
                         </button>
                     </div>
                 </motion.div>
-                <motion.div className="min-h-screen flex items-center justify-center" initial={{x: 100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.1, type:"spring"}}>
+                <motion.div className="pb-20 xl:pb-0 col-span-2 xl:col-span-1 min-h-screen flex items-center justify-center" initial={{x: 100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{duration: 1.6, delay: 0.1, type:"spring"}}>
                     <img src="/images/1.svg" width={450} />
                 </motion.div>
             </div>
